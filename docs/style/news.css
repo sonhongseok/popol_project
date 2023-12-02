@@ -1,0 +1,28 @@
+/* news 스와이퍼 구현 시작 */
+.swiper {
+  width: 100%;
+  height: 650px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* 	border: 2px solid red; */
+}
+
+.swiper>.swiper-wrapper>.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  /* 	border: 2px solid red; */
+}
+
+.swiper>.swiper-wrapper>.swiper-slide>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* 	border: 2px solid red; */
+}
+
+.swiper>.swiper-wrapper>.swiper-slide>.content {
+  margin-top: 10px;
+  /* 	border: 5px solid red; */
+}

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP Alchemy</title>
+
+  <!-- 제이쿼리 불러오기  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- 테일윈드 css 불러오기 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- 폰트어썸 불러오기 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- 스와이퍼 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- 공통 css 연결 -->
+  <link rel="stylesheet" href="style/common.css">
+
+  <!-- artist css 연결 -->
+  <link rel="stylesheet" href="style/artist.css">
+
+  <!-- 공통 js 연결 -->
+  <script defer src="script/script.js"></script>
+</head>
+
+<body>
+  <header id="top-bar"></header>
+
+
+  <!-- 아티스트 페이지 구현 -->
+  <section class="company con mx-auto mt-10">
+    <div class="company__tab-box-1 con">
+      <ul class="tab-box-1__head flex">
+        <li class="tab-box-1__item tab-box-1__item-1 active">
+          <a href="#">
+            <span class="company__logo-img logo-img-1 jm"></span>
+          </a>
+        </li>
+        <li class="tab-box-1__item tab-box-1__item-2">
+          <a href="#">
+            <span class="company__logo-img logo-img-2 im"></span>
+          </a>
+        </li>
+        <li class="tab-box-1__item tab-box-1__item-3">
+          <a href="#">
+            <span class="company__logo-img logo-img-3 wtp"></span>
+          </a>
+        </li>
+        <li class="tab-box-1__item tab-box-1__item-4">
+          <a href="#">
+            <span class="company__logo-img logo-img-4 mf"></span>
+          </a>
+        </li>
+        <li class="tab-box-1__item tab-box-1__item-5">
+          <a href="#">
+            <span class="company__logo-img logo-img-5 sb"></span>
+          </a>
+        </li>
+      </ul>
+      <ul class="tab-box-1__body">
+        <li class="tab-box-1__item tap-box-1__item-1 active">
+          <div class="artist my-slider-box just-music">
+            <div class="swiper swiper-con">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-1-1">
+                  <p class="name-artist">SWINGS</p>
+                  <img src="images/artist/SWINGS.png" alt="아티스트1">
+                  <h2 class="info-artist">
+                    <span class="name">SWINGS</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-2">
+                  <p>GIRIBOY</p>
+                  <img src="images/artist/GIRIBOY.png" alt="아티스트2">
+                  <h2 class="info-artist">
+                    <span class="name">GIRIBOY</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-3">
+                  <p>NOCHANG</p>
+                  <img src="images/artist/NOCHANG.png" alt="아티스트3">
+                  <h2 class="info-artist">
+                    <span class="name">NOCHANG</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-4">
+                  <p>BLACK NUT</p>
+                  <img src="images/artist/BLACK NUT.png" alt="아티스트4">
+                  <h2 class="info-artist">
+                    <span class="name">BLACK NUT</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-5">
+                  <p>HAN YO HAN</p>
+                  <img src="images/artist/HAN YO HAN.png" alt="아티스트5">
+                  <h2 class="info-artist">
+                    <span class="name">HAN YO HAN</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-6">
+                  <p>JIMMY PAIGE</p>
+                  <img src="images/artist/JIMMY PAIGE.png" alt="아티스트6">
+                  <h2 class="info-artist">
+                    <span class="name">JIMMY PAIGE</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-7">
+                  <p>SILKYBOIS</p>
+                  <img src="images/artist/SILKYBOIS.png" alt="아티스트7">
+                  <h2 class="info-artist">
+                    <span class="name">SILKYBOIS</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-1-8">
+                  <p>JINBO</p>
+                  <img src="images/artist/JINBO.png" alt="아티스트8">
+                  <h2 class="info-artist">
+                    <span class="name">JINBO</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn-box">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </li>
+        <li class="tap-box-1__item tap-box-1__item-2">
+          <div class="artist my-slider-box indigo-music">
+            <div class="swiper swiper-con">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-2-1">
+                  <p class="name-artist">SWINGS</p>
+                  <img src="images/artist/SWINGS.png" alt="아티스트9">
+                  <h2 class="info-artist">
+                    <span class="name">SWINGS</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-2-2">
+                  <p>Kid Milli</p>
+                  <img src="images/artist/Kid Milli.png" alt="아티스트10">
+                  <h2 class="info-artist">
+                    <span class="name">Kid Milli</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-2-3">
+                  <p>YANGHONGWON</p>
+                  <img src="images/artist/YANGHONGWON.png" alt="아티스트11">
+                  <h2 class="info-artist">
+                    <span class="name">YANGHONGWON</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-2-4">
+                  <p>NO:EL</p>
+                  <img src="images/artist/NOEL.png" alt="아티스트12">
+                  <h2 class="info-artist">
+                    <span class="name">NO:EL</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-2-5">
+                  <p>ron</p>
+                  <img src="images/artist/ron.png" alt="아티스트13">
+                  <h2 class="info-artist">
+                    <span class="name">ron</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-2-6">
+                  <p>ksmartboi</p>
+                  <img src="images/artist/ksmartboi.png" alt="아티스트14">
+                  <h2 class="info-artist">
+                    <span class="name">ksmartboi</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn-box">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </li>
+        <li class="tap-box-1__item tap-box-1__item-3">
+          <div class="artist my-slider-box wedaplugg">
+            <div class="swiper swiper-con">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-3-1">
+                  <p class="name-artist">SWINGS</p>
+                  <img src="images/artist/SWINGS.png" alt="아티스트15">
+                  <h2 class="info-artist">
+                    <span class="name">SWINGS</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-2">
+                  <p>GIRIBOY</p>
+                  <img src="images/artist/GIRIBOY.png" alt="아티스트16">
+                  <h2 class="info-artist">
+                    <span class="name">GIRIBOY</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-3">
+                  <p>YUNHWAY</p>
+                  <img src="images/artist/YUNHWAY.png" alt="아티스트17">
+                  <h2 class="info-artist">
+                    <span class="name">YUNHWAY</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-4">
+                  <p>sAewoo</p>
+                  <img src="images/artist/sAewoo.png" alt="아티스트18">
+                  <h2 class="info-artist">
+                    <span class="name">sAewoo</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-5">
+                  <p>Jhnovr</p>
+                  <img src="images/artist/Jhnovr.png" alt="아티스트19">
+                  <h2 class="info-artist">
+                    <span class="name">Jhnovr</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-6">
+                  <p>Lil tachi</p>
+                  <img src="images/artist/Lil tachi.png" alt="아티스트20">
+                  <h2 class="info-artist">
+                    <span class="name">Lil tachi</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-7">
+                  <p>OLNL</p>
+                  <img src="images/artist/OLNL.png" alt="아티스트21">
+                  <h2 class="info-artist">
+                    <span class="name">OLNL</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-8">
+                  <p>Kvsh</p>
+                  <img src="images/artist/Kvsh.png" alt="아티스트22">
+                  <h2 class="info-artist">
+                    <span class="name">Kvsh</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-9">
+                  <p>YULEUM</p>
+                  <img src="images/artist/YULEUM.png" alt="아티스트23">
+                  <h2 class="info-artist">
+                    <span class="name">YULEUM</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-3-10">
+                  <p>YEOHO</p>
+                  <img src="images/artist/YEOHO.png" alt="아티스트24">
+                  <h2 class="info-artist">
+                    <span class="name">YEOHO</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn-box">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </li>
+        <li class="tap-box-1__item tap-box-1__item-4">
+          <div class="artist my-slider-box mine-field">
+            <div class="swiper swiper-con">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-4-1">
+                  <p class="name-artist">성국</p>
+                  <img src="images/artist/성국.png" alt="아티스트25">
+                  <h2 class="info-artist">
+                    <span class="name">성국</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-2">
+                  <p>Chillin Homie</p>
+                  <img src="images/artist/Chillin Homie.png" alt="아티스트26">
+                  <h2 class="info-artist">
+                    <span class="name">Chillin Homie</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-3">
+                  <p>추서준</p>
+                  <img src="images/artist/추서준.png" alt="아티스트27">
+                  <h2 class="info-artist">
+                    <span class="name">추서준</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-4">
+                  <p>TE'O</p>
+                  <img src="images/artist/TE'O.png" alt="아티스트28">
+                  <h2 class="info-artist">
+                    <span class="name">TE'O</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-5">
+                  <p>Vapo</p>
+                  <img src="images/artist/Vapo.png" alt="아티스트29">
+                  <h2 class="info-artist">
+                    <span class="name">Vapo</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-6">
+                  <p>DUT2</p>
+                  <img src="images/artist/DUT2.png" alt="아티스트30">
+                  <h2 class="info-artist">
+                    <span class="name">DUT2</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-7">
+                  <p>KAIAVANT</p>
+                  <img src="images/artist/KAIAVANT.png" alt="아티스트31">
+                  <h2 class="info-artist">
+                    <span class="name">KAIAVANT</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-8">
+                  <p>kweeel</p>
+                  <img src="images/artist/kweeel.png" alt="아티스트32">
+                  <h2 class="info-artist">
+                    <span class="name">kweeel</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-9">
+                  <p>Xeeyon</p>
+                  <img src="images/artist/Xeeyon.png" alt="아티스트33">
+                  <h2 class="info-artist">
+                    <span class="name">Xeeyon</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-10">
+                  <p>노윤하</p>
+                  <img src="images/artist/노윤하.png" alt="아티스트34">
+                  <h2 class="info-artist">
+                    <span class="name">노윤하</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-11">
+                  <p>GEMma</p>
+                  <img src="images/artist/GEMma.png" alt="아티스트35">
+                  <h2 class="info-artist">
+                    <span class="name">GEMma</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-12">
+                  <p>iiso</p>
+                  <img src="images/artist/iiso.png" alt="아티스트36">
+                  <h2 class="info-artist">
+                    <span class="name">iiso</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-13">
+                  <p>BAMSEM</p>
+                  <img src="images/artist/BAMSEM.png" alt="아티스트37">
+                  <h2 class="info-artist">
+                    <span class="name">BAMSEM</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-14">
+                  <p>INJAE</p>
+                  <img src="images/artist/INJAE.png" alt="아티스트38">
+                  <h2 class="info-artist">
+                    <span class="name">INJAE</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-15">
+                  <p>ABLE</p>
+                  <img src="images/artist/ABLE.png" alt="아티스트39">
+                  <h2 class="info-artist">
+                    <span class="name">ABLE</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-16">
+                  <p>Lay.bn</p>
+                  <img src="images/artist/Lay.bn.png" alt="아티스트40">
+                  <h2 class="info-artist">
+                    <span class="name">Lay.bn</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-17">
+                  <p>JEFFREY WHITE</p>
+                  <img src="images/artist/JEFFREY WHITE.png" alt="아티스트41">
+                  <h2 class="info-artist">
+                    <span class="name">JEFFREY WHITE</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-18">
+                  <p>Matt</p>
+                  <img src="images/artist/Matt.png" alt="아티스트42">
+                  <h2 class="info-artist">
+                    <span class="name">Matt</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-19">
+                  <p>MASON HOME</p>
+                  <img src="images/artist/MASON HOME.png" alt="아티스트43">
+                  <h2 class="info-artist">
+                    <span class="name">MASON HOME</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-20">
+                  <p>Raf Sandou</p>
+                  <img src="images/artist/Raf Sandou.png" alt="아티스트44">
+                  <h2 class="info-artist">
+                    <span class="name">Raf Sandou</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-21">
+                  <p>다민이</p>
+                  <img src="images/artist/다민이.png" alt="아티스트45">
+                  <h2 class="info-artist">
+                    <span class="name">다민이</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-22">
+                  <p>윤다혜</p>
+                  <img src="images/artist/윤다혜.png" alt="아티스트46">
+                  <h2 class="info-artist">
+                    <span class="name">윤다혜</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-4-23">
+                  <p>Don Mills</p>
+                  <img src="images/artist/Don Mills.png" alt="아티스트47">
+                  <h2 class="info-artist">
+                    <span class="name">Don Mills</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn-box">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </li>
+        <li class="tap-box-1__item tap-box-1__item-5">
+          <div class="artist my-slider-box sugar-beats">
+            <div class="swiper swiper-con">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-5-1">
+                  <p class="name-artist">WIZ WORLD</p>
+                  <img src="images/artist/WIZ WORLD.png" alt="아티스트48">
+                  <h2 class="info-artist">
+                    <span class="name">WIZ WORLD</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-2">
+                  <p>SOQI</p>
+                  <img src="images/artist/SOQI.png" alt="아티스트49">
+                  <h2 class="info-artist">
+                    <span class="name">SOQI</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-3">
+                  <p>CHARMING LIPS</p>
+                  <img src="images/artist/CHARMING LIPS.png" alt="아티스트50">
+                  <h2 class="info-artist">
+                    <span class="name">CHARMING LIPS</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-4">
+                  <p>TUNA</p>
+                  <img src="images/artist/common.png" alt="아티스트51">
+                  <h2 class="info-artist">
+                    <span class="name">TUNA</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-5">
+                  <p>MIL HOUSE</p>
+                  <img src="images/artist/MIL HOUSE.png" alt="아티스트52">
+                  <h2 class="info-artist">
+                    <span class="name">MIL HOUSE</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-6">
+                  <p>BLIENTY</p>
+                  <img src="images/artist/common.png" alt="아티스트53">
+                  <h2 class="info-artist">
+                    <span class="name">BLIENTY</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-7">
+                  <p>HYEMINSONG</p>
+                  <img src="images/artist/HYEMINSONG.png" alt="아티스트54">
+                  <h2 class="info-artist">
+                    <span class="name">HYEMINSONG</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-8">
+                  <p>NICESHOTNICK</p>
+                  <img src="images/artist/common.png" alt="아티스트55">
+                  <h2 class="info-artist">
+                    <span class="name">NICESHOTNICK</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-9">
+                  <p>Mist</p>
+                  <img src="images/artist/Mist.png" alt="아티스트56">
+                  <h2 class="info-artist">
+                    <span class="name">Mist</span>
+                  </h2>
+                </div>
+                <div class="swiper-slide swiper-slide-5-10">
+                  <p>NOMA</p>
+                  <img src="images/artist/common.png" alt="아티스트57">
+                  <h2 class="info-artist">
+                    <span class="name">NOMA</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn-box">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+</body>
+
+</html>
